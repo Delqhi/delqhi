@@ -10,6 +10,11 @@ I build autonomous AI systems, agent workflows, and developer platforms that shi
 ![LangGraph](https://img.shields.io/badge/-LangGraph-1a1a2e?style=flat-square)
 ![MCP](https://img.shields.io/badge/-MCP-000000?style=flat-square)
 ![OpenCode](https://img.shields.io/badge/-OpenCode-121212?style=flat-square)
+![OpenSIN](https://img.shields.io/badge/-OpenSIN-0066CC?style=flat-square)
+![A2A](https://img.shields.io/badge/-A2A-FF6B35?style=flat-square)
+![tmux](https://img.shields.io/badge/-tmux-1BB91F?style=flat-square&logo=tmux&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/-GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+![Stripe](https://img.shields.io/badge/-Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white)
 
 ---
 
@@ -47,9 +52,9 @@ I build autonomous AI systems, agent workflows, and developer platforms that shi
 ## Stack
 
 - **Languages:** TypeScript, Python, Go
-- **AI/ML:** LangGraph, MCP, agent orchestration
-- **Platforms:** OpenCode, GitHub Actions, tmux
-- **Infrastructure:** Autonomous workflows, A2A communication
+- **AI/ML:** LangGraph, MCP, agent orchestration, A2A protocols
+- **Platforms:** OpenCode, OpenSIN, GitHub Actions, tmux
+- **Infrastructure:** Autonomous workflows, 24/7 agent fleets, swarm orchestration
 
 ---
 
