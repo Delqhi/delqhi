@@ -8,7 +8,7 @@
 
 Every AI company is selling you the same thing: **one agent that does everything mediocrely.**
 
-ChatGPT writes emails AND codes AND analyzes data — badly at all of them. Claude reviews PRs AND summarizes documents AND writes essays — with the same generic brain. Every "AI agent" startup wraps a prompt in a UI and calls it revolutionary.
+ChatGPT writes emails AND codes AND analyzes data — badly at all of them. Every "AI agent" startup wraps a prompt in a UI and calls it revolutionary.
 
 **That's not intelligence. That's a multitool. And multitools break when you need them most.**
 
@@ -16,13 +16,13 @@ ChatGPT writes emails AND codes AND analyzes data — badly at all of them. Clau
 
 ## What I Built Instead
 
-**OpenSIN** — the first Agent-to-Agent (A2A) network where **100+ autonomous specialists** communicate, coordinate, and execute **without human intervention.**
+**OpenSIN** — the first Agent-to-Agent (A2A) network where **108+ autonomous specialists** communicate, coordinate, and execute **without human intervention.**
 
 Not a demo. Not a prototype. **A fleet that runs 24/7 in production.**
 
 | What the industry sells | What OpenSIN actually is |
 |---|---|
-| 1 agent that does everything okay | 100+ specialists that each do one thing perfectly |
+| 1 agent that does everything okay | 108+ specialists that each do one thing perfectly |
 | You prompt → it responds | Agents talk to agents — you're not in the loop |
 | Single point of failure | Self-healing mesh — agents replace each other |
 | Works in a chat window | Works across 20+ messaging platforms, GitHub, Apple, Stripe, Cloudflare |
@@ -36,20 +36,53 @@ Not a demo. Not a prototype. **A fleet that runs 24/7 in production.**
 |---|---|
 | **Total Packages** | 310+ |
 | **Domains Covered** | 25+ |
-| **A2A Agents** | 100+ deployed |
-| **Specialized Teams** | 18 teams |
+| **A2A Agents** | 108+ deployed |
+| **Specialized Teams** | 9+ teams |
+| **Platform Workers** | 13 (Prolific, Outlier, Clickworker, Appen, Scale AI, Mindrift, OneForma, DataAnnotation, YouGov, Freecash, Karya, Meinungsstudie, Surge AI) |
 | **Messaging Channels** | 20+ (WhatsApp, Signal, Telegram, Discord, Slack, Matrix, WeChat, LINE, IRC, SMS, Email, Zoom, and more) |
 | **MCP Servers** | 64+ |
-| **Public Repos** | 155+ |
+| **Public Repos** | 157+ |
+| **HF Spaces** | 20 (9 easeeeclip + 11 delqhi) |
 | **Uptime** | 24/7 autonomous |
-| **Providers** | 5 (Google, OpenAI, NVIDIA NIM, Gemini, Qwen) |
-| **Models** | 15+ (Gemini 3.1 Pro, Claude Sonnet/Opus, GPT-5.4, Qwen 397B) |
+| **Providers** | 100+ (OpenAI, Anthropic, Google, NVIDIA NIM, Groq, Cerebras, TogetherAI, Ollama, and 90+ more) |
+| **Models** | 1000+ (Gemini 3.1 Pro, Claude Sonnet/Opus, GPT-5.4, Qwen 397B, and 996+ more) |
+
+---
+
+## Browser & GUI Automation
+
+OpenSIN includes two production-ready browser/GUI automation systems:
+
+### sinInChrome (14 Dateien)
+- **MCP Server** für Browser-Automation via Chrome Extension
+- **Native Messaging Host** für Chrome-Kommunikation
+- **API Executor** mit Auto-Reconnect (3 Attempts mit Backoff)
+- **Health Checks** (3-Check System: MCP Server, Extension, Platform)
+- **Telemetry** (Buffered + Async Analytics)
+- **Batch Operations** (bis 50 Actions pro Request)
+- **Rate Limiting** (Free: 100/h, Premium: 10000/h)
+- **Graceful Degradation** (Fallback-Mechanismen)
+- **Audit Logging** (alle Actions geloggt)
+
+### sin-computer-use (14 Dateien)
+- **macOS GUI Automation** via Swift Bindings
+- **Computer Use MCP Server** für Screen/Keyboard/Mouse Control
+- **Tool Rendering Overrides** für UI-Interaktion
+- **Input Loader** für Keyboard/Mouse Events
+- **Executor** mit Loop-Drain und Esc-Hotkey
+- **Gates** für Feature-Flag-Steuerung
+
+### sin-platform-auth (17 Plattformen)
+- **Automatische Cookie-Extraktion** aus Chrome Default Profil
+- **Chrome Safe Storage Entschlüsselung** (PBKDF2-SHA1 + AES-128-CBC)
+- **17 unterstützte Plattformen**: X, YouTube, Instagram, Reddit, Discord, Medium, TikTok, HuggingFace, LinkedIn, Telegram, Google-Apps, GitHub, DevTo, ProductHunt, StackOverflow, Quora, IndieHackers
+- **Zero Human Intervention** — User surft normal, Agenten arbeiten autonom
 
 ---
 
 ## The Organization: OpenSIN-AI
 
-**155+ repositories** organized by domain:
+**157+ repositories** organized by domain:
 
 ### Core Infrastructure
 - **[OpenSIN](https://github.com/OpenSIN-AI/OpenSIN)** — Core: 310+ packages across 25+ domains
@@ -128,16 +161,17 @@ Not a demo. Not a prototype. **A fleet that runs 24/7 in production.**
 - **[A2A-SIN-WebChat](https://github.com/OpenSIN-AI/A2A-SIN-WebChat)** — WebChat
 - **[A2A-SIN-Chatroom](https://github.com/OpenSIN-AI/A2A-SIN-Chatroom)** — Chatroom
 
-### Social Media
-- **[A2A-SIN-X-Twitter](https://github.com/OpenSIN-AI/A2A-SIN-X-Twitter)** — X/Twitter
-- **[A2A-SIN-Instagram](https://github.com/OpenSIN-AI/A2A-SIN-Instagram)** — Instagram
-- **[A2A-SIN-TikTok](https://github.com/OpenSIN-AI/A2A-SIN-TikTok)** — TikTok
-- **[A2A-SIN-YouTube](https://github.com/OpenSIN-AI/A2A-SIN-YouTube)** — YouTube
-- **[A2A-SIN-LinkedIn](https://github.com/OpenSIN-AI/A2A-SIN-LinkedIn)** — LinkedIn
-- **[A2A-SIN-Medium](https://github.com/OpenSIN-AI/A2A-SIN-Medium)** — Medium
-- **[A2A-SIN-Reddit](https://github.com/OpenSIN-AI/A2A-SIN-Reddit)** — Reddit
+### Social Media (8)
+- **[A2A-SIN-X-Twitter](https://github.com/OpenSIN-AI/A2A-SIN-X-Twitter)** — X/Twitter (`easeeeclip/sin-x-twitter`)
+- **[A2A-SIN-Instagram](https://github.com/OpenSIN-AI/A2A-SIN-Instagram)** — Instagram (`easeeeclip/sin-instagram`)
+- **[A2A-SIN-TikTok](https://github.com/OpenSIN-AI/A2A-SIN-TikTok)** — TikTok (`easeeeclip/sin-tiktok`)
+- **[A2A-SIN-YouTube](https://github.com/OpenSIN-AI/A2A-SIN-YouTube)** — YouTube (`easeeeclip/sin-youtube`)
+- **[A2A-SIN-LinkedIn](https://github.com/OpenSIN-AI/A2A-SIN-LinkedIn)** — LinkedIn (`easeeeclip/sin-linkedin`)
+- **[A2A-SIN-Medium](https://github.com/OpenSIN-AI/A2A-SIN-Medium)** — Medium (`easeeeclip/sin-medium`)
+- **[A2A-SIN-Reddit](https://github.com/OpenSIN-AI/A2A-SIN-Reddit)** — Reddit (`easeeeclip/sin-reddit`)
+- **[A2A-SIN-Community](https://github.com/OpenSIN-AI/A2A-SIN-Community)** — Community (`easeeeclip/sin-community`)
 
-### Forum
+### Forum (8)
 - **[A2A-SIN-StackOverflow](https://github.com/OpenSIN-AI/A2A-SIN-StackOverflow)** — StackOverflow
 - **[A2A-SIN-Quora](https://github.com/OpenSIN-AI/A2A-SIN-Quora)** — Quora
 - **[A2A-SIN-HackerNews](https://github.com/OpenSIN-AI/A2A-SIN-HackerNews)** — HackerNews
@@ -146,6 +180,22 @@ Not a demo. Not a prototype. **A fleet that runs 24/7 in production.**
 - **[A2A-SIN-IndieHackers](https://github.com/OpenSIN-AI/A2A-SIN-IndieHackers)** — IndieHackers
 - **[A2A-SIN-Lobsters](https://github.com/OpenSIN-AI/A2A-SIN-Lobsters)** — Lobsters
 - **[A2A-SIN-Slashdot](https://github.com/OpenSIN-AI/A2A-SIN-Slashdot)** — Slashdot
+
+### Platform Workers (13)
+Alle 13 Worker mit sinInChrome + sin-computer-use Integration:
+- **[Prolific](https://github.com/OpenSIN-AI/OpenSIN-backend/tree/main/services/workers/platforms/prolific)** — Academic studies
+- **[Outlier](https://github.com/OpenSIN-AI/OpenSIN-backend/tree/main/services/workers/platforms/outlier)** — AI training tasks
+- **[Clickworker](https://github.com/OpenSIN-AI/OpenSIN-backend/tree/main/services/workers/platforms/clickworker)** — Micro tasks
+- **[Appen](https://github.com/OpenSIN-AI/OpenSIN-backend/tree/main/services/workers/platforms/appen)** — Data annotation
+- **[Scale AI](https://github.com/OpenSIN-AI/OpenSIN-backend/tree/main/services/workers/platforms/scaleai)** — AI evaluation
+- **[Mindrift](https://github.com/OpenSIN-AI/OpenSIN-backend/tree/main/services/workers/platforms/mindrift)** — AI tasks
+- **[OneForma](https://github.com/OpenSIN-AI/OpenSIN-backend/tree/main/services/workers/platforms/oneforma)** — Data collection
+- **[DataAnnotation](https://github.com/OpenSIN-AI/OpenSIN-backend/tree/main/services/workers/platforms/dataannotation)** — Data annotation
+- **[YouGov](https://github.com/OpenSIN-AI/OpenSIN-backend/tree/main/services/workers/platforms/yougov)** — Surveys
+- **[Freecash](https://github.com/OpenSIN-AI/OpenSIN-backend/tree/main/services/workers/platforms/freecash)** — Offers & surveys
+- **[Karya](https://github.com/OpenSIN-AI/OpenSIN-backend/tree/main/services/workers/platforms/karya)** — Microsoft data tasks
+- **[Meinungsstudie](https://github.com/OpenSIN-AI/OpenSIN-backend/tree/main/services/workers/platforms/meinungsstudie)** — German surveys
+- **[Surge AI](https://github.com/OpenSIN-AI/OpenSIN-backend/tree/main/services/workers/platforms/surgeai)** — AI training data
 
 ### Legal Team
 - **[A2A-SIN-Team-lawyer](https://github.com/OpenSIN-AI/A2A-SIN-Team-lawyer)** — Legal team
@@ -181,7 +231,7 @@ Not a demo. Not a prototype. **A fleet that runs 24/7 in production.**
 
 ## Organizations
 
-- **[OpenSIN-AI](https://github.com/OpenSIN-AI)** — Admin · 155+ repos · 310+ packages · 100+ agents
+- **[OpenSIN-AI](https://github.com/OpenSIN-AI)** — Admin · 157+ repos · 310+ packages · 108+ agents
 - **[ASINBIO](https://github.com/ASINBIO)** — Core Maintainer · AI-first bio systems
 - **[SIN-Solver](https://github.com/SIN-Solver)** — Core Maintainer · Managed operator layer
 
