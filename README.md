@@ -190,7 +190,7 @@ Not a demo. Not a prototype. **A fleet that runs 24/7 in production.**
 ## Connect
 
 - **OpenSIN:** https://opensin.ai
-- **Website:** https://www.delqhi.com
+- **Website:** https://me.delqhi.com
 - **GitHub:** https://github.com/Delqhi
 - **OpenSIN-AI:** https://github.com/OpenSIN-AI
 
