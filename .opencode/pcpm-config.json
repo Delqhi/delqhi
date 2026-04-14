@@ -5,7 +5,7 @@
     "onFailure": "/Users/jeremy/dev/Delqhi-profile/.opencode/hooks/pcpm-after-run.sh"
   },
   "pcpm": {
-    "brainRepoPath": "/Users/jeremy/dev/Delqhi-profile",
+    "brainRepoPath": "/Users/jeremy/dev/global-brain",
     "projectId": "Delqhi-profile",
     "goalId": "default-goal",
     "goalDescription": "Continue development",
