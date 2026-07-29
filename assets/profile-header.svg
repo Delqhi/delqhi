@@ -1,0 +1,59 @@
+<svg width="1400" height="420" viewBox="0 0 1400 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#030706"/>
+      <stop offset="0.5" stop-color="#08120E"/>
+      <stop offset="1" stop-color="#0B1712"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="160" y1="90" x2="1120" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22C55E"/>
+      <stop offset="0.55" stop-color="#2DD4BF"/>
+      <stop offset="1" stop-color="#38BDF8"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1120 205) rotate(180) scale(330 300)">
+      <stop stop-color="#22C55E" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#22C55E" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0V42" stroke="#FFFFFF" stroke-opacity="0.035"/>
+    </pattern>
+    <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="420" rx="30" fill="url(#bg)"/>
+  <rect width="1400" height="420" rx="30" fill="url(#grid)"/>
+  <rect width="1400" height="420" rx="30" fill="url(#glow)"/>
+  <rect x="1" y="1" width="1398" height="418" rx="29" stroke="#4ADE80" stroke-opacity="0.22" stroke-width="2"/>
+
+  <circle cx="1030" cy="120" r="85" fill="#22C55E" fill-opacity="0.08" filter="url(#softGlow)"/>
+  <circle cx="1195" cy="286" r="110" fill="#38BDF8" fill-opacity="0.06" filter="url(#softGlow)"/>
+
+  <rect x="86" y="62" width="250" height="36" rx="18" fill="#101C16" stroke="#22C55E" stroke-opacity="0.55"/>
+  <circle cx="108" cy="80" r="5" fill="#4ADE80"/>
+  <text x="124" y="86" fill="#A7F3D0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="2">OFFEN · BAUEN · LIEFERN</text>
+
+  <text x="84" y="190" fill="#F8FAFC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="62" font-weight="800" letter-spacing="1">JEREMY SCHULZE</text>
+  <rect x="86" y="215" width="610" height="4" rx="2" fill="url(#accent)"/>
+  <text x="86" y="266" fill="#D1FAE5" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24" font-weight="700" letter-spacing="2">KI-SYSTEME · WEBENTWICKLUNG · QUELLOFFEN</text>
+  <text x="86" y="312" fill="#94A3B8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="500">Agenten · Automatisierung · Entwicklerwerkzeuge · Infrastruktur</text>
+
+  <g transform="translate(948 60)">
+    <path d="M155 24L258 84V204L155 264L52 204V84L155 24Z" fill="#08110D" stroke="url(#accent)" stroke-width="3"/>
+    <path d="M155 62L225 102V184L155 224L85 184V102L155 62Z" fill="#0D1B14" stroke="#4ADE80" stroke-opacity="0.45" stroke-width="2"/>
+    <circle cx="155" cy="143" r="44" fill="#10271B" stroke="#22C55E" stroke-width="2"/>
+    <text x="155" y="153" text-anchor="middle" fill="#ECFDF5" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28" font-weight="800" letter-spacing="3">SIN</text>
+
+    <path d="M155 99V62M199 118L225 102M199 168L225 184M155 187V224M111 168L85 184M111 118L85 102" stroke="#2DD4BF" stroke-opacity="0.75" stroke-width="2"/>
+    <circle cx="155" cy="62" r="7" fill="#4ADE80"/>
+    <circle cx="225" cy="102" r="7" fill="#2DD4BF"/>
+    <circle cx="225" cy="184" r="7" fill="#38BDF8"/>
+    <circle cx="155" cy="224" r="7" fill="#4ADE80"/>
+    <circle cx="85" cy="184" r="7" fill="#2DD4BF"/>
+    <circle cx="85" cy="102" r="7" fill="#38BDF8"/>
+
+    <rect x="0" y="300" width="310" height="40" rx="20" fill="#0D1813" stroke="#334155"/>
+    <text x="155" y="326" text-anchor="middle" fill="#94A3B8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="1.5">SYSTEME STATT HYPE</text>
+  </g>
+</svg>

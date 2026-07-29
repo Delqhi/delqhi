@@ -1,0 +1,33 @@
+<svg width="640" height="230" viewBox="0 0 640 230" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="640" y2="230" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07100C"/>
+      <stop offset="1" stop-color="#0C1812"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="640" y2="230" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22C55E" stop-opacity="0.6"/>
+      <stop offset="0.55" stop-color="#2DD4BF" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0.55"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#FFFFFF" stroke-opacity="0.025"/>
+    </pattern>
+  </defs>
+  <rect width="640" height="230" rx="22" fill="url(#bg)"/>
+  <rect width="640" height="230" rx="22" fill="url(#grid)"/>
+  <rect x="1" y="1" width="638" height="228" rx="21" stroke="url(#edge)" stroke-width="2"/>
+  <rect x="28" y="24" width="146" height="92" rx="18" fill="#091510" stroke="#1E3A2B"/>
+  
+        <path d="M101 29L133 47V83L101 101L69 83V47L101 29Z" fill="#10271B" stroke="#4ADE80" stroke-width="3"/>
+        <text x="101" y="72" text-anchor="middle" fill="#ECFDF5" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="800">SIN</text>
+  <text x="199" y="43" fill="#64748B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="1.4">OPENSIN-AI</text>
+  <text x="199" y="76" fill="#F0FDF4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="27" font-weight="800">OpenSIN</text>
+  <text x="199" y="105" fill="#86EFAC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="600">Modulares Ökosystem für KI-Agenten</text>
+  <text x="199" y="130" fill="#94A3B8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14">Integrationen · Versuche · Entwicklerwerkzeuge</text>
+  <path d="M581 48H607M597 38L607 48L597 58" stroke="#4ADE80" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="32" y1="153" x2="608" y2="153" stroke="#334155" stroke-opacity="0.65"/>
+  <rect x="52" y="174" width="80" height="30" rx="15" fill="#0D1B14" stroke="#334155"/>
+        <text x="92.0" y="194" text-anchor="middle" fill="#A7F3D0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">Python</text><rect x="142" y="174" width="108" height="30" rx="15" fill="#0D1B14" stroke="#334155"/>
+        <text x="196.0" y="194" text-anchor="middle" fill="#A7F3D0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">KI-Systeme</text><rect x="260" y="174" width="116" height="30" rx="15" fill="#0D1B14" stroke="#334155"/>
+        <text x="318.0" y="194" text-anchor="middle" fill="#A7F3D0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">Erweiterbar</text>
+</svg>

@@ -1,0 +1,34 @@
+<svg width="640" height="230" viewBox="0 0 640 230" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="640" y2="230" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07100C"/>
+      <stop offset="1" stop-color="#0C1812"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="640" y2="230" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22C55E" stop-opacity="0.6"/>
+      <stop offset="0.55" stop-color="#2DD4BF" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0.55"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#FFFFFF" stroke-opacity="0.025"/>
+    </pattern>
+  </defs>
+  <rect width="640" height="230" rx="22" fill="url(#bg)"/>
+  <rect width="640" height="230" rx="22" fill="url(#grid)"/>
+  <rect x="1" y="1" width="638" height="228" rx="21" stroke="url(#edge)" stroke-width="2"/>
+  <rect x="28" y="24" width="146" height="92" rx="18" fill="#091510" stroke="#1E3A2B"/>
+  
+        <rect x="62" y="31" width="78" height="64" rx="10" fill="#102018" stroke="#2DD4BF" stroke-width="3"/>
+        <circle cx="76" cy="44" r="3" fill="#4ADE80"/><circle cx="87" cy="44" r="3" fill="#2DD4BF"/><circle cx="98" cy="44" r="3" fill="#38BDF8"/>
+        <path d="M77 62L88 71L77 80M97 80H122" stroke="#D1FAE5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="199" y="43" fill="#64748B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="1.4">OPENSIN-AI</text>
+  <text x="199" y="76" fill="#F0FDF4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="27" font-weight="800">Infra-SIN Dev Setup</text>
+  <text x="199" y="105" fill="#86EFAC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="600">Reproduzierbare Entwicklungsumgebungen</text>
+  <text x="199" y="130" fill="#94A3B8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14">Shell · Python · Docker · CI-Abläufe</text>
+  <path d="M581 48H607M597 38L607 48L597 58" stroke="#4ADE80" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="32" y1="153" x2="608" y2="153" stroke="#334155" stroke-opacity="0.65"/>
+  <rect x="52" y="174" width="80" height="30" rx="15" fill="#0D1B14" stroke="#334155"/>
+        <text x="92.0" y="194" text-anchor="middle" fill="#A7F3D0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">Shell</text><rect x="142" y="174" width="132" height="30" rx="15" fill="#0D1B14" stroke="#334155"/>
+        <text x="208.0" y="194" text-anchor="middle" fill="#A7F3D0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">Infrastruktur</text><rect x="284" y="174" width="148" height="30" rx="15" fill="#0D1B14" stroke="#334155"/>
+        <text x="358.0" y="194" text-anchor="middle" fill="#A7F3D0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">Automatisierung</text>
+</svg>

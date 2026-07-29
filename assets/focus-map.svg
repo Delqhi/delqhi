@@ -1,0 +1,65 @@
+<svg width="1400" height="330" viewBox="0 0 1400 330" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="330" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#050806"/>
+      <stop offset="1" stop-color="#0B1510"/>
+    </linearGradient>
+    <linearGradient id="line" x1="180" y1="165" x2="1220" y2="165" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22C55E" stop-opacity="0.25"/>
+      <stop offset="0.5" stop-color="#2DD4BF"/>
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0.25"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="330" rx="26" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1398" height="328" rx="25" stroke="#22C55E" stroke-opacity="0.18" stroke-width="2"/>
+
+  <path d="M310 92L548 145M310 238L548 185M852 145L1090 92M852 185L1090 238" stroke="url(#line)" stroke-width="3"/>
+  <path d="M700 74V120M700 210V256" stroke="#2DD4BF" stroke-opacity="0.65" stroke-width="3"/>
+
+  <circle cx="700" cy="165" r="90" fill="#22C55E" fill-opacity="0.08" filter="url(#glow)"/>
+  <rect x="548" y="120" width="304" height="90" rx="22" fill="#102018" stroke="#4ADE80" stroke-width="2"/>
+  <text x="700" y="158" text-anchor="middle" fill="#F0FDF4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23" font-weight="800">ZUVERLÄSSIGE</text>
+  <text x="700" y="190" text-anchor="middle" fill="#86EFAC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23" font-weight="800">KI-SYSTEME</text>
+
+  <g>
+    <rect x="94" y="53" width="216" height="78" rx="18" fill="#0C1711" stroke="#22C55E" stroke-opacity="0.55"/>
+    <circle cx="126" cy="92" r="11" fill="#22C55E" fill-opacity="0.18" stroke="#4ADE80"/>
+    <text x="151" y="88" fill="#ECFDF5" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700">Agenten &amp; LLMs</text>
+    <text x="151" y="110" fill="#64748B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13">Tools · State · Grenzen</text>
+  </g>
+
+  <g>
+    <rect x="94" y="199" width="216" height="78" rx="18" fill="#0C1711" stroke="#2DD4BF" stroke-opacity="0.55"/>
+    <circle cx="126" cy="238" r="11" fill="#2DD4BF" fill-opacity="0.18" stroke="#5EEAD4"/>
+    <text x="151" y="234" fill="#ECFEFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700">Entwicklerwerkzeuge</text>
+    <text x="151" y="256" fill="#64748B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13">CLI · Git · Worktrees</text>
+  </g>
+
+  <g>
+    <rect x="1090" y="53" width="216" height="78" rx="18" fill="#0C1711" stroke="#38BDF8" stroke-opacity="0.55"/>
+    <circle cx="1122" cy="92" r="11" fill="#38BDF8" fill-opacity="0.18" stroke="#7DD3FC"/>
+    <text x="1147" y="88" fill="#F0F9FF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700">Web &amp; APIs</text>
+    <text x="1147" y="110" fill="#64748B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13">UI · Backend · Integrationen</text>
+  </g>
+
+  <g>
+    <rect x="1090" y="199" width="216" height="78" rx="18" fill="#0C1711" stroke="#22C55E" stroke-opacity="0.55"/>
+    <circle cx="1122" cy="238" r="11" fill="#22C55E" fill-opacity="0.18" stroke="#4ADE80"/>
+    <text x="1147" y="234" fill="#F0FDF4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700">Infrastruktur</text>
+    <text x="1147" y="256" fill="#64748B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13">Docker · CI/CD · Cloud</text>
+  </g>
+
+  <g>
+    <rect x="590" y="28" width="220" height="46" rx="23" fill="#0B1610" stroke="#334155"/>
+    <text x="700" y="57" text-anchor="middle" fill="#CBD5E1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700">ARCHITEKTUR · TESTS</text>
+  </g>
+
+  <g>
+    <rect x="565" y="256" width="270" height="46" rx="23" fill="#0B1610" stroke="#334155"/>
+    <text x="700" y="285" text-anchor="middle" fill="#CBD5E1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700">OBSERVABILITY · KONTROLLE</text>
+  </g>
+</svg>
